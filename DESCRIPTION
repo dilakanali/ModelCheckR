@@ -1,0 +1,21 @@
+Package: ModelCheckR
+Title: Diagnostic Tools for Linear Regression Models 
+Version: 0.0.0.9000
+Authors@R:
+    person(
+        "Fadilah Rabbani",
+        "Kanali",
+        email = "24611053@students.uii.ac.id",
+        role = c("aut", "cre")
+    )
+Description: Provides diagnostic functions for evaluating linear regression assumptions including normality, heteroscedasticity, multicollinearity, influential observations, and overall model diagnostics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
